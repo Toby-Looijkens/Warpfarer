@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4cd3f72ae133c7c44ad6e39b5cd0018a
+guid: 71331541017aad447b11765273d87477
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5313595205408877057
-    second: LaserBolt_0
+      213: 105138774377573353
+    second: LaserBolt_Red_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LaserBolt_0
+      name: LaserBolt_Red_0
       rect:
         serializedVersion: 2
         x: 4
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff5926530515246b0800000000000000
-      internalID: -5313595205408877057
+      spriteID: 9eb25e28827857100800000000000000
+      internalID: 105138774377573353
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      LaserBolt_0: -5313595205408877057
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

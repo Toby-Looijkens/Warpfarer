@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2347266519324598334}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,8 +172,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceleration: 20
   maxSpeed: 15
-  turnSpeed: 200
+  turnSpeed: 300
   rigidbody: {fileID: 6642742504181488357}
+  gun1: {fileID: 4556702116396191951}
+  gun2: {fileID: 3443325634550161083}
+  bolt: {fileID: 3848085851630681789, guid: a4a98571da903714cb48c054b0d43acf, type: 3}
+  fireRate: 800
 --- !u!114 &2231033627429547786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,7 +332,7 @@ Transform:
   m_GameObject: {fileID: 6432813162084507210}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: -0.2, z: 0}
+  m_LocalPosition: {x: 1.09, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -359,7 +363,7 @@ Transform:
   m_GameObject: {fileID: 7534852611548000346}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: 0.2, z: 0}
+  m_LocalPosition: {x: 1.09, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

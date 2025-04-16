@@ -15,7 +15,8 @@ public class LaserBolt : MonoBehaviour
         if (timeAlive > maxLifeTime)
         {
             Destroy(gameObject);
-        } else
+        }
+        else
         {
             timeAlive += Time.deltaTime;
         }
@@ -25,7 +26,10 @@ public class LaserBolt : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            collision.collider.SendMessage("ReceiveDamage");
+            Debug.Log("Hit");
+            collision.gameObject.SendMessage("ReceiveDamage");
         }
+
+        Destroy(gameObject);
     }
 }

@@ -106,7 +106,6 @@ public class PlayerController : MonoBehaviour
             {
                 LaserBolt laserBolt = LaserBolt.Instantiate(bolt, gun2.position, transform.rotation);
                 laserBolt.direction = transform.right;
-                Debug.Log(laserBolt.direction);
                 laserBolt.GetComponent<SpriteRenderer>().enabled = true;
                 gun1Fired = false;
                 gunCooldown = 60 / fireRate;
